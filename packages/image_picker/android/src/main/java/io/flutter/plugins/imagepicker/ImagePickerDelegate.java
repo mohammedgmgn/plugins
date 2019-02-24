@@ -6,6 +6,7 @@ package io.flutter.plugins.imagepicker;
 
 import android.Manifest;
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -372,10 +373,10 @@ public class ImagePickerDelegate
   public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
     switch (requestCode) {
       case REQUEST_CODE_CHOOSE_IMAGE_FROM_GALLERY:
-        handleChooseImageResult(resultCode, data);
+        handleChooseImageResult(resultCode, data,activity,true);
         break;
       case REQUEST_CODE_TAKE_IMAGE_WITH_CAMERA:
-        handleCaptureImageResult(resultCode);
+        handleCaptureImageResult(resultCode,true);
         break;
       case REQUEST_CODE_CHOOSE_VIDEO_FROM_GALLERY:
         handleChooseVideoResult(resultCode, data);
@@ -390,10 +391,10 @@ public class ImagePickerDelegate
     return true;
   }
 
-  private void handleChooseImageResult(int resultCode, Intent data) {
+  private void handleChooseImageResult(int resultCode, Intent data,Context context,boolean shouldCompress) {
     if (resultCode == Activity.RESULT_OK && data != null) {
       String path = fileUtils.getPathFromUri(activity, data.getData());
-      handleImageResult(path);
+      handleImageResult(path,data.getData(),context,shouldCompress);
       return;
     }
 
@@ -412,14 +413,15 @@ public class ImagePickerDelegate
     finishWithSuccess(null);
   }
 
-  private void handleCaptureImageResult(int resultCode) {
+  private void handleCaptureImageResult(int resultCode, final boolean shouldCompress) {
     if (resultCode == Activity.RESULT_OK) {
       fileUriResolver.getFullImagePath(
           pendingCameraMediaUri,
           new OnPathReadyListener() {
             @Override
             public void onPathReady(String path) {
-              handleImageResult(path);
+              handleImageResult(path,pendingCameraMediaUri,activity,shouldCompress);
+
             }
           });
       return;
@@ -446,12 +448,13 @@ public class ImagePickerDelegate
     finishWithSuccess(null);
   }
 
-  private void handleImageResult(String path) {
+  private void handleImageResult(String path,Uri uri, Context context,boolean shouldCompress) {
     if (pendingResult != null) {
       Double maxWidth = methodCall.argument("maxWidth");
       Double maxHeight = methodCall.argument("maxHeight");
 
-      String finalImagePath = imageResizer.resizeImageIfNeeded(path, maxWidth, maxHeight);
+      String finalImagePath = imageResizer.resizeImageIfNeeded(path, maxWidth, maxHeight,
+              shouldCompress,context,uri);
       finishWithSuccess(finalImagePath);
     } else {
       throw new IllegalStateException("Received image from picker that was not requested");
