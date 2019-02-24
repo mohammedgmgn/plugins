@@ -1,0 +1,190 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+MERGED from [:video_player] D:\plugins\packages\image_picker\example\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e5b00212c6becbed7a98325479ecf19b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\dfe844b55630dc6cdbc6b2952033123a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\c275356005876fa93d9a1f017f7264bc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\78fd7be14cdf85f95a0c84f5bba02c42\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\2bca93f4fe000dc4efa498dcc5a90570\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\68ae820e6799475a89a1852063681000\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\15dee709d5d86eba7acd60030d28196c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\29b12bc0df5bbf15b0a08db80b9204a9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\386f92f5d4c4a5670daf534435895d5f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\fb2d7083123b721d486a621ba04326b1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\8eb3ad7243ffe85b617dfad08f1648eb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\866d8326e67cb2bc427c6d6559ee9182\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2bfbe14a9eb5b0fc65bca4fcf19d7f0a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\351b74a3d81a14ae93c45d577bfe0f90\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\0a10f4783139bfe0d28b317edae399a9\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8dd678aa5618c47b1458aedb6a38de34\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\0e365b427c74ff850f4aef519ea7bf3d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\d72f1499187d65f13d247c8af4ca0029\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ad83185c74b11d13eade77dd9bfa8b3c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e20db606899280624046d24e3c572b52\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\a573c9f367c56e27291a16bacb0bb177\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\5b09cd69414b6e7fab60a20010621a52\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8ae49cc0daac42983ac585d60c2ec56a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\d0b7f9ff68b659594196c22edcb9c3fa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\5dc7f1496e6fe6de274f722c68d1aea7\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+	package
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:2:5-52
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:1-19:12
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:6:5-18:19
+MERGED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\351b74a3d81a14ae93c45d577bfe0f90\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\351b74a3d81a14ae93c45d577bfe0f90\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\0a10f4783139bfe0d28b317edae399a9\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\0a10f4783139bfe0d28b317edae399a9\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\351b74a3d81a14ae93c45d577bfe0f90\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:6:67-103
+	android:icon
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:6:104-138
+	android:name
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:6:18-66
+activity#io.flutter.plugins.imagepickerexample.MainActivity
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:7:9-17:20
+	android:launchMode
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:8:19-49
+	android:hardwareAccelerated
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:11:19-53
+	android:windowSoftInputMode
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:12:19-61
+	android:configChanges
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:10:19-112
+	android:theme
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:9:19-72
+	android:name
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:7:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+MERGED from [:video_player] D:\plugins\packages\image_picker\example\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:video_player] D:\plugins\packages\image_picker\example\build\video_player\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e5b00212c6becbed7a98325479ecf19b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\e5b00212c6becbed7a98325479ecf19b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\dfe844b55630dc6cdbc6b2952033123a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\dfe844b55630dc6cdbc6b2952033123a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\c275356005876fa93d9a1f017f7264bc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\c275356005876fa93d9a1f017f7264bc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\78fd7be14cdf85f95a0c84f5bba02c42\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\78fd7be14cdf85f95a0c84f5bba02c42\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\2bca93f4fe000dc4efa498dcc5a90570\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\2bca93f4fe000dc4efa498dcc5a90570\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\68ae820e6799475a89a1852063681000\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\68ae820e6799475a89a1852063681000\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\15dee709d5d86eba7acd60030d28196c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\15dee709d5d86eba7acd60030d28196c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\29b12bc0df5bbf15b0a08db80b9204a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\29b12bc0df5bbf15b0a08db80b9204a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\386f92f5d4c4a5670daf534435895d5f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\386f92f5d4c4a5670daf534435895d5f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\fb2d7083123b721d486a621ba04326b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\fb2d7083123b721d486a621ba04326b1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\8eb3ad7243ffe85b617dfad08f1648eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\8eb3ad7243ffe85b617dfad08f1648eb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\866d8326e67cb2bc427c6d6559ee9182\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\866d8326e67cb2bc427c6d6559ee9182\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2bfbe14a9eb5b0fc65bca4fcf19d7f0a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2bfbe14a9eb5b0fc65bca4fcf19d7f0a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\351b74a3d81a14ae93c45d577bfe0f90\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\351b74a3d81a14ae93c45d577bfe0f90\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\0a10f4783139bfe0d28b317edae399a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\0a10f4783139bfe0d28b317edae399a9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8dd678aa5618c47b1458aedb6a38de34\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\8dd678aa5618c47b1458aedb6a38de34\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\0e365b427c74ff850f4aef519ea7bf3d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\0e365b427c74ff850f4aef519ea7bf3d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\d72f1499187d65f13d247c8af4ca0029\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\d72f1499187d65f13d247c8af4ca0029\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ad83185c74b11d13eade77dd9bfa8b3c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ad83185c74b11d13eade77dd9bfa8b3c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e20db606899280624046d24e3c572b52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\e20db606899280624046d24e3c572b52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\a573c9f367c56e27291a16bacb0bb177\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\a573c9f367c56e27291a16bacb0bb177\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\5b09cd69414b6e7fab60a20010621a52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\5b09cd69414b6e7fab60a20010621a52\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8ae49cc0daac42983ac585d60c2ec56a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8ae49cc0daac42983ac585d60c2ec56a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\d0b7f9ff68b659594196c22edcb9c3fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\d0b7f9ff68b659594196c22edcb9c3fa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\5dc7f1496e6fe6de274f722c68d1aea7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mabdullah\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\5dc7f1496e6fe6de274f722c68d1aea7\AndroidManifest.xml:20:5-44
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\plugins\packages\image_picker\example\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:9:22-62
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-74
+	android:exported
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:75
+	android:resource
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-72
+	android:name
+		ADDED from [:image_picker] D:\plugins\packages\image_picker\example\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67

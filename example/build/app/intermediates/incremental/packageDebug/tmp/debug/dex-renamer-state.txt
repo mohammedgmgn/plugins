@@ -1,0 +1,4 @@
+#Sun Feb 24 12:15:22 EET 2019
+base.0=D\:\\plugins\\packages\\image_picker\\example\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
